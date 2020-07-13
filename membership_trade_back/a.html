@@ -1,0 +1,1247 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ko" lang="ko"><head>
+
+<title>VIP 무비 | T world</title>
+
+<!-- Meta -->
+<meta name="keywords" content="T 멤버십 VIP, VIP, 영화, 무비, CGV, 롯데시네마, 메가박스, 3D">
+<meta name="description" content="VIP 무비는 롯데시네마, CGV, 메가박스에서 즐길 수 있는 무료영화 관람권을 연 6회 제공해 드립니다. 지금 바로 예매해 보세요.">
+
+<!-- 통합POC관련 js header.jsp 추가 -->
+<meta http-equiv="Expires" content="-1">
+	<meta http-equiv="Pragma" content="no-cache">
+	<meta http-equiv="Cache-Control" content="No-Cache">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta http-equiv="content-type" content="text/html; charset=utf-8">
+	<link rel="shortcut icon" href="//cdnwtmembership.tworld.co.kr:8000/poc/favicon.ico" type="image/x-icon">
+
+	<!-- 2016.06.29 통합POC -->
+<link href="//cdnwtmembership.tworld.co.kr:8000/poc/inc/css/common.css" rel="stylesheet" type="text/css">
+<!--
+	 * 2016.07.13
+	 * 멤버십 서브메인 :  membership_submain.css 사용 (매그넘 제작)
+	 * 그외 메뉴는 : membership.css
+	 -->
+<link href="//cdnwtmembership.tworld.co.kr:8000/poc/inc/css/membership.css" rel="stylesheet" type="text/css">
+<link href="//cdnwtmembership.tworld.co.kr:8000/poc/inc/css/footer.css" rel="stylesheet" type="text/css">
+
+	<script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script><script async="" src="//www.googletagmanager.com/gtm.js?id=GTM-WZVZ7S"></script><script async="" src="https://www.google-analytics.com/analytics.js"></script><script type="text/javascript" src="//cdnwtmembership.tworld.co.kr:8000/poc/inc/js/lib/jquery.min.js"></script>
+	<script type="text/javascript" src="//cdnwtmembership.tworld.co.kr:8000/poc/inc/js/common/jquery.min.1.11.0.js"></script>
+	<script type="text/javascript" src="//cdnwtmembership.tworld.co.kr:8000/poc/inc/js/common/jquery-1.7.1.min.js"></script>
+	<script type="text/javascript" src="//cdnwtmembership.tworld.co.kr:8000/poc/inc/js/util/jquery.filestyle.js"></script>
+	<script type="text/javascript" src="//cdnwtmembership.tworld.co.kr:8000/poc/inc/js/util/jQuery.slide.js"></script>
+
+	<script type="text/javascript">
+	// HTML include 할 때 사용(2016.12.01 최초 생성)
+	var limtCallHtmlContentDt = "20200713170216";
+	</script>
+	<script type="text/javascript" src="//cdnwtmembership.tworld.co.kr:8000/poc/inc/js/html_content_inc.js"></script>
+
+	<script type="text/javascript" src="//cdnwtmembership.tworld.co.kr:8000/poc/inc/js/util/common.js"></script>
+	<script type="text/javascript" src="//cdnwtmembership.tworld.co.kr:8000/poc/inc/js/util/tm_common.js"></script>
+	<script type="text/javascript" src="//cdnwtmembership.tworld.co.kr:8000/poc/inc/js/util/tsc_common.js"></script>
+	<script type="text/javascript" src="//cdnwtmembership.tworld.co.kr:8000/poc/inc/js/util/movePage.js"></script>
+	<script type="text/javascript" src="//cdnwtmembership.tworld.co.kr:8000/poc/inc/js/util/form.js"></script>
+	<script type="text/javascript" src="//cdnwtmembership.tworld.co.kr:8000/poc/inc/js/util/category.js"></script>
+	<script type="text/javascript" src="//cdnwtmembership.tworld.co.kr:8000/poc/inc/js/util/ixBand_07min.js"></script>
+
+
+	<!-- <script type="text/javascript" src="/poc/inc/js/common/jquery.min.1.11.0.js"></script> -->
+	<!-- <script type="text/javascript" src="/poc/inc/js/common/jquery-1.7.1.min.js"></script> -->
+	<script type="text/javascript" src="//cdnwtmembership.tworld.co.kr:8000/poc/inc/js/lib/libs.js"></script>
+	<script type="text/javascript" src="//cdnwtmembership.tworld.co.kr:8000/poc/inc/js/common/common.js"></script>
+
+	<!-- select box 관련 -->
+	<script type="text/javascript" src="//cdnwtmembership.tworld.co.kr:8000/poc/inc/js/lib/jquery.mousewheel.js"></script>
+	<script type="text/javascript" src="//cdnwtmembership.tworld.co.kr:8000/poc/inc/js/lib/jquery.jscrollpane.min.js"></script>
+	<script type="text/javascript" src="//cdnwtmembership.tworld.co.kr:8000/poc/inc/js/lib/wddo.selectbox-1.5.4.js"></script>
+
+	<script type="text/javascript">
+	//<![CDATA[
+
+	function PopOpen(turl,name,iwidth,iheight){
+		// window.open(경로,창이름,옵션[가로,세로,리사이즈 가능여부,스크롤바 가능여부, top창위치, left창위치])
+		window.open(turl,name,"width=" + iwidth + ", height=" + iheight + ", resizable=no,scrollbars=yes,top=50,left=50");
+	}
+
+	//통합POC관련 로그인팝업호출
+	// /poc/gnb/login/mbsLoginInfo.jsp GNB영역에서 호출
+	function gnbPopupLogin(){
+		var returnURL = '%2Fweb%2Fhtml%2Fcoupon%2FCtgViewMainYesMovie.jsp';
+
+		//에러페이지및 로그아웃 페이지에서 팝업 로그인 호출시 returnURL을 메인으로 호출하게 함
+		if(returnURL.indexOf("2Ferror.jsp") >= 0 || returnURL.indexOf("2FLogout.jsp") >= 0){
+			returnURL = "";
+		}
+
+		//var url = '/web/html/login/LoginMain.jsp?popup=Y&returnURL='+returnURL;
+		//window.open( url, 'loginPop', "width=500,height=655,scrollbars=yes");
+
+		// HTTPS 적용 PJT(2018.10.18)  -  팝업창 호출 바닥페이지의 프로토콜 체크.
+		 var reqProtocol = 'http';
+	   if(document.location.protocol == 'https:') {
+		  reqProtocol = 'https';
+		}
+		 //-------------------------------------------------------------------
+		var url = '/web/html/login/LoginMain.jsp?popup=Y&returnURL='+returnURL;
+
+		 //-------------------------------------------------------------------
+		 // HTTPS 적용 PJT: 팝업창 호출시 호출 프로토콜 파라메터 추가.
+		url = url +  '&reqProtocol=' + reqProtocol;
+
+		window.open( url, 'loginPop', "width=500,height=655,scrollbars=yes");
+
+	}
+
+	//  tworld에서 로그인하고, 멤버십 랜덤하게 아무 사이트 진입시 SKTSSO연동
+	// /poc/gnb/login/mbsLoginInfo.jsp GNB영역에서 호출
+	function gnbSktsso(){
+		var returnURL = '%2Fweb%2Fhtml%2Fcoupon%2FCtgViewMainYesMovie.jsp';
+
+		//에러페이지및 로그아웃 페이지에서 팝업 로그인 호출시 returnURL을 메인으로 호출하게 함
+		if(returnURL.indexOf("/error") >= 0 || returnURL.indexOf("/logout") >= 0){
+			returnURL = "";
+		}
+
+		document.location.href = "/web/html/login/LoginMain.jsp?returnURL="+returnURL;
+	}
+	//]]>
+	</script>
+	<!-- 2016.06.29 통합POC -->
+
+	<script type="text/javascript">
+	function livereLogin(){
+    	url = window.location.href;
+    	url = url.slice(30);
+
+    	var f = document.createElement("form");
+    	f.setAttribute("method","post");
+    	f.setAttribute("action","/web/html/login/LoginMain.jsp");
+    	document.body.appendChild(f);
+
+    	var i = document.createElement("input");
+    	i.setAttribute("type","hidden");
+    	i.setAttribute("name","returnURL");
+    	i.setAttribute("value",url);
+    	f.appendChild(i);
+
+		f.submit();
+	}
+
+	function livereAuth(){
+		if( isMobile() ){
+			document.location='http://www.sktmembership.co.kr:90/mobile/html/common/livereAuth.jsp';
+		} else {
+			// HTTPS 적용 PJT(2018.10.18)  - 변경
+			document.location='https://tmembership.tworld.co.kr:8000/web/html/common/livereAuth.jsp';
+		}
+	}
+
+
+	function isMobile(){
+		var filter = "win16|win32|win64|mac|macintel";
+		if( navigator.platform  ){
+			if( filter.indexOf(navigator.platform.toLowerCase())<0 ){
+				return true;
+			}else{
+				return false;
+	     	}
+	    }
+	}
+
+	// URL연결
+	function urlLink(urlcd){
+		var f = document.frm;
+
+		var destUrl;
+		var popupYn;
+		var popupConfig;
+		var resultCode;
+		var targetAttr;
+		 $.ajax({
+	            url:"/web/html/urllink/UrlLinkProc.jsp",
+	            type:"POST",
+	            async: false,
+	            dataType:"JSON",
+	            data:{"url_code":urlcd},
+	            error:function(data){
+	             resultCode = "FAIL";
+	             return;
+	           },
+	            success:function(data){
+	            	destUrl = data.destUrl;
+	            	popupYn = data.popupYn;
+	            	popupConfig = data.popupConfig;
+	            	targetAttr = data.targetAttr;
+	            	resultCode = data.resultCode;
+				}
+	       });
+		if(resultCode=="SUCCESS"&&popupYn== "Y"){
+			window.open(destUrl,'popup',popupConfig);
+		}else if(resultCode=="SUCCESS"&&popupYn== "N"){
+			if(targetAttr=="_top"){
+				top.location.href=destUrl;
+			}else if(targetAttr=="_parent"){
+				parent.location.href=destUrl;
+			}else if(targetAttr=="_blank"){
+				window.open('about:blank').location.href=destUrl;
+			}else{
+				location.href=destUrl;
+			}
+		}else{
+			alert("해당 링크는 존재하지 않습니다.");
+		}
+
+	}
+
+    // 치환된 특수문자 원복
+    // 2018.10.05 이우정
+    function replaceSpecalCharacter(str){
+        //replace Special Character 치환
+        str = str.replace("&lt;", "<");
+        str = str.replace("&gt;", ">");
+        str = str.replace("&#39;", "'");
+        str = str.replace("&quot;", "\"");
+        str = str.replace("&#35;", "#");
+        str = str.replace("&amp;", "&");
+        str = str.replace("&#40;", "(");
+        str = str.replace("&#41;", ")");
+        return str;
+    };
+	</script>
+
+<script type="text/javascript">
+	try {
+		document.domain='tworld.co.kr';
+	} catch(e) {}
+
+	$(document).ready(function() {
+		GoCpUrl();
+	});
+
+	function GoCpUrl() {
+
+		document.getElementById('ifrBodyIpus').src='/web/html/common/ipus.jsp?IPUS_ID=YES24';
+
+		var f = document.frm1;
+		f.target = "ifrBody";
+		f.tParam.value = "6d8397373ad8a3157d99a0cb263ad7af7e2dcc5f3a8530bd9efcf394346b614c3931477bf80bff8bb758c6e0e17d237e90313649c2cce4d48012a33b4be899b006941c455db0c27925b6187a2cd5fa82b57028fb9a24330f31011e59046f8a44063007b1108562785d04d9f8de594f810ccde6dc935bf92ad32ab784a46d3865487d936a225a98548cef0fb535b93b9abe2ccb1c5562f3e0a050a81705d62e73e11210f0a3d1cbd2c0cb132fe5b209877cb3ac77ed5e7e4ca9142186ea0f7f57971e1072de09fdf3c1a64bd9653720bc863bab23b9fbae8ad55a955e6da9676f";
+
+		if("1" == "1") {
+			f.path.value = "";
+			f.action = "https://tmovie.tmembership.tworld.co.kr/MovieGateway.aspx";
+		}else {
+			f.path.value = "1";
+			f.action = "https://tmovie.tmembership.tworld.co.kr/MovieGateway.aspx";
+		}
+		f.submit();
+	}
+</script>
+
+<script type="text/javascript">
+	if(window.addEventListener){
+		 window.addEventListener("message",postMessageController,false);
+	}else if(window.attachEvent){
+		 window.attachEvent("onmessage",postMessageController);
+	}
+
+    function postMessageController(e){
+	     var iHeight;
+		 try{
+			iHeight = parseInt(e.data);
+		} catch(e) {
+			 iHeight = $('#ifrBody').height(); //디폴트값
+		 }
+		 //alert("===> " + e.origin + " | " + iHeight + " | " + e.data);
+		 $('#ifrBody').height(iHeight);
+
+		 offset = $('#wrap').offset();
+		 $(document).scrollTop(offset.top);
+	}
+	</script>
+
+<script type="text/javascript" src="https://xtr.tos.sktelecom.com/js/xtractor_script.js"></script></head>
+
+<body>
+<div class="accessbility"><a href="#content">본문 바로가기</a></div>
+<!-- wrap -->
+<div id="wrap"><div id="dimed"></div>
+	<!-- header -->
+	<div id="header" class="hView_lnb" style="height: 117px;"><!-- gnb 고도화 수정 : 스크롤시 class="top_action" 추가, 현재 페이지가 myt 화면일 경우 class="myt" 추가, 2depth 노출되어 있을 경우 class="hView_lnb" 추가 -->
+		<div class="header_con" style="position: fixed;">
+			<!-- gnb 고도화 수정 -->
+			<div class="h_gnb">
+				<!-- gnb (1 depth) -->
+				<div class="gnb_wrap">
+					<div class="logo"><a href="javascript:poclink('u0')" ucode="u0"><img src="/poc/gnb/inc/img/header/renew/logo_new.png" alt="T world"></a></div>
+					<ul class="gnb"><!-- 1depth 메뉴 hover시 class="f_action" 추가 -->
+						<li><a href="javascript:poclink('u1')" ucode="u1" data-topcode="u1" data-href="#gnb1">상품서비스</a></li><!-- 선택 class="on" 추가 -->
+						<li><a href="javascript:poclink('u2')" ucode="u2" data-topcode="u2" data-href="#gnb2">T다이렉트샵</a></li> <!-- 200320 [OP002-7388] 수정_01 -->
+						<li class="on"><a href="javascript:poclink('u3')" ucode="u3" data-topcode="u3" data-href="#gnb3">T멤버십</a></li>
+						<li><a href="javascript:poclink('u4')" ucode="u4" data-topcode="u4" data-href="#gnb4">로밍</a></li>
+						<li><a href="javascript:poclink('u6')" ucode="u6" data-topcode="u6" data-href="#gnb5">혜택/이벤트</a></li>
+						<li><a href="javascript:poclink('u5')" ucode="u5" data-topcode="u5" data-href="#gnb6">고객지원</a></li>
+						<!-- 190610 삭제_01 -->
+						<!--
+						<li class="g_more hidden">--><!-- hover시 class="over" 추가, 하위메뉴 영역 펼침 --><!--
+							<a href="#">
+								<span class="hidden">기타메뉴</span>
+								<span class="ico_more"><i class="bar"></i></span>
+							</a>
+							<div class="snb_wrap">
+								<div class="snb_wrap_innr">
+									<ul class="snb_list1">
+										<li><a href="http://www.tworld.co.kr/tglink.jsp?urlname=ognb_012" target="_blank" title="새창">기업</a></li>
+										<li><a href="http://www.tworld.co.kr/tglink.jsp?urlname=ognb_013" target="_blank" title="새창">법인</a></li>
+										<li><a href="http://www.tworld.co.kr/tglink.jsp?urlname=ognb_014" target="_blank" title="새창">English</a></li>
+										<li><a href="#" ucode="u9_5_1">전체메뉴</a></li>
+									</ul>
+								</div>
+							</div>
+						</li>
+						-->
+						<!-- // 190610 삭제_01 -->
+					</ul>
+				</div>
+				<!-- //gnb (1 depth) -->
+
+				<!-- aside -->
+				<div class="aside_wrap">
+					<ul class="h_aside">
+						<!-- 190312 수정_1 [s] -->
+						<li class="g_slogan">
+							<a href="http://www.tworld.co.kr/tglink.jsp?urlname=ognb_5gx" target="_blank" title="새창"><span class="globan_img1">SKT 5GX</span><i class="arr"></i></a>
+							<a href="http://www.tworld.co.kr/tglink.jsp?urlname=ognb_017" target="_blank" title="새창"><span class="globan_img2">T for Business</span><i class="arr"></i></a>
+						</li>
+						<!-- //190312 수정_1 [e] -->
+						<!-- 검색 -->
+						<li class="g_srch">
+							<a href="#total_search"><span>검색 열기</span><i class="arr"></i></a><!-- 검색 레이어 열릴때 class="close" 추가, 히든텍스트 '검색 닫기' 로 변경 -->
+							<!-- <span class="ui_srch"><span>검색</span><i class="arr"></i></span> --><!-- 검색결과 페이지일 경우에만 해당 버튼으로 노출(링크기능 없음) -->
+						</li>
+						<!-- //검색 -->
+						<!-- myT -->
+						<li class="g_myt"><!-- 마우스 오버시 레이어 펼침과 함께 class="over"추가 -->
+							<a href="javascript:poclink('u7')" ucode="u7" data-topcode="u7" data-href="#gnb7"><span>my T</span><i class="arr"></i></a>
+							<!-- 개발영역 -->
+							<div class="layer_con_aside" id="gnb_login"><!-- 로그인 후 -->
+<!-- B1 Type -->
+<div class="innr_wrap aside_my_mbox typeB" id="gnb_login">
+	<div class="my_mbox_info"><!-- 하위메뉴('smenu_dep2') 영역 펼침시 style="margin-left:-200px;" 추가 -->
+		<p class="txt_name"><span class="fBd">장*완</span>님, 반갑습니다.</p>
+		<div class="txt_pnum">
+			<em>기준회선</em>
+				<a href="javascript:_poc_gnb_openSvcChangePop('MBS', 'ALL')" class="btn_chg"><i></i>회선변경</a>
+				<div class="pnum">010-59**-89**</div>
+		</div>
+		<ul class="util">
+			<li><a href="http://www.tworld.co.kr/tglink.jsp?urlname=ognb_016"><i class="ico1"></i>주문확인</a></li>
+			<li><a href="http://www.tworld.co.kr/tglink.jsp?urlname=get_3054"><i class="ico2"></i>회원정보 변경</a></li>
+			<li><a href="/web/html/logout/LogoutServlet.jsp"><i class="ico3"></i>로그아웃</a></li>
+		</ul>
+	</div>
+	<div class="my_mbox_menus_wrapB1"><!-- 하위메뉴('smenu_dep2') 영역 펼침시 class="menus_open" 추가, style="width:100%;" 추가 -->
+		<div class="my_mbox_menus"><!-- 하위메뉴('smenu_dep2') 영역 펼침시 class="f_action" 추가, 해당 li에 class="on" 추가 -->
+			<ul>
+				<li>
+					<a href="javascript:poclink('u7_1')" ucode="u7_1">
+						<i class="ico1"></i><span>데이터/통화 관리</span><i class="arr"></i>
+						<em class="hidden">하위메뉴 보기</em>
+					</a>
+					<div class="smenu_dep2">
+						<div style="width:45%;">
+							<ul>
+								<li><a href="javascript:poclink('u7_1_1')" ucode="u7_1_1">나의 잔여 데이터/통화</a></li>
+								<li><a href="javascript:poclink('u7_1_2')" ucode="u7_1_2">T가족모아데이터</a></li>
+								<li><a href="javascript:poclink('u7_1_3')" ucode="u7_1_3">T끼리 데이터 선물</a></li>
+								<li><a href="javascript:poclink('u7_1_4')" ucode="u7_1_4">음성/데이터 리필</a></li>
+								<li><a href="javascript:poclink('u7_1_5')" ucode="u7_1_5">팅요금 선물</a></li>
+							</ul>
+						</div>
+						<div style="width:55%;">
+							<ul>
+								<li><a href="javascript:poclink('u7_1_6')" ucode="u7_1_6">데이터 함께쓰기 요금 충전</a></li>
+								<li><a href="javascript:poclink('u7_1_7')" ucode="u7_1_7">PPS 충전</a></li>
+								<li><a href="javascript:poclink('u7_1_8')" ucode="u7_1_8">데이터 한도 요금 충전</a></li>
+								<li><a href="javascript:poclink('u7_1_9')" ucode="u7_1_9">팅/ZEM 플랜/안심음성 요금 충전</a></li>
+							</ul>
+						</div>
+					</div>
+				</li>
+				<li>
+					<a href="javascript:poclink('u7_3')" ucode="u7_3">
+						<i class="ico2"></i><span>나의 요금</span><i class="arr"></i>
+						<em class="hidden">하위메뉴 보기</em>
+					</a>
+					<div class="smenu_dep2">
+						<div style="width:48%;">
+							<ul>
+								<li><a href="javascript:poclink('u7_3_1')" ucode="u7_3_1">사용 요금 내역</a></li>
+								<li><a href="javascript:poclink('u7_3_2')" ucode="u7_3_2">청구 요금 내역</a></li>
+								<li><a href="javascript:poclink('u7_3_3')" ucode="u7_3_3">소액결제 내역</a></li>
+								<li><a href="javascript:poclink('u7_3_4')" ucode="u7_3_4">콘텐츠이용료 내역</a></li>
+							</ul>
+						</div>
+						<div style="width:52%;">
+							<ul>
+								<li><a href="javascript:poclink('u7_3_5')" ucode="u7_3_5">요금 납부</a>
+									<div class="smenu_dep3">
+										<ul>
+											<li><a href="javascript:poclink('u7_3_5_1')" ucode="u7_3_5_1">즉시 납부</a></li>
+											<li><a href="javascript:poclink('u7_3_5_2')" ucode="u7_3_5_2">입금 전용계좌 납부</a></li>
+											<li><a href="javascript:poclink('u7_3_5_3')" ucode="u7_3_5_3">포인트 요금 납부</a></li>
+											<li><a href="javascript:poclink('u7_3_5_4')" ucode="u7_3_5_4">콘텐츠이용료 선결제</a></li>
+											<li><a href="javascript:poclink('u7_3_5_5')" ucode="u7_3_5_5">소액결제 선결제</a></li>
+										</ul>
+									</div>
+								</li>
+								<li><a href="javascript:poclink('u7_3_6')" ucode="u7_3_6">요금납부내역 조회</a></li>
+								<li><a href="javascript:poclink('u7_3_7')" ucode="u7_3_7">요금안내서 설정</a></li>
+							</ul>
+						</div>
+					</div>
+				</li>
+				<li>
+					<a href="javascript:poclink('u7_9')" ucode="u7_9">
+						<i class="ico3"></i><span>나의 가입정보</span><i class="arr"></i>
+						<em class="hidden">하위메뉴 보기</em>
+					</a>
+					<div class="smenu_dep2">
+						<div style="width:60%;">
+							<ul>
+								<li><a href="javascript:poclink('u7_9_1')" ucode="u7_9_1">나의 요금제/부가서비스/결합상품</a></li>
+								<li><a href="javascript:poclink('u7_9_2')" ucode="u7_9_2">서비스 신청 현황</a>
+									<div class="smenu_dep3">
+										<ul>
+											<li><a href="javascript:poclink('u7_9_2_1')" ucode="u7_9_2_1">인터넷/집전화/IPTV 신청 내역</a></li>
+											<li><a href="javascript:poclink('u7_9_2_2')" ucode="u7_9_2_2">인터넷전화 번호이동 신청 내역</a></li>
+											<li><a href="javascript:poclink('u7_9_2_3')" ucode="u7_9_2_3">공기계/중고폰 개통 내역</a></li>
+										</ul>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<div style="width:40%;">
+							<ul>
+								<li><a href="javascript:poclink('u7_9_3')" ucode="u7_9_3">나의 포인트</a></li>
+								<li><a href="javascript:poclink('u7_9_4')" ucode="u7_9_4">나의 혜택</a></li>
+								<li><a href="javascript:poclink('u7_9_5')" ucode="u7_9_5">나의 배송지</a></li>
+							</ul>
+						</div>
+					</div>
+				</li>
+			</ul>
+			<button type="button" class="btn_back" style="display: none;"><span>하위메뉴 닫기</span></button>
+		</div>
+		<div class="my_mbox_other">
+			<p class="txt">혹시 이런 메뉴를<br> 찾고 계셨나요?</p>
+			<ul>
+				<li><a href="javascript:poclink('u7_4_1_1')" ucode="u7_4_1_1"><span>휴대폰 분실신고/해제</span></a></li><!-- //181126 수정 -->
+				<li><a href="javascript:poclink('u7_3_5_1')" ucode="u7_3_5_1"><span>즉시 납부</span></a></li>
+				<li><a href="javascript:poclink('u7_3_3')" ucode="u7_3_3"><span>소액결제 내역</span></a></li>
+				<li><a href="javascript:poclink('u7_1_3')" ucode="u7_1_3"><span>T끼리 데이터 선물</span></a></li>
+			</ul>
+		</div>
+		<div class="my_mbox_foot"><a href="#"><i></i>my T 전체 메뉴 보기</a></div>
+	</div>
+</div>
+<!-- //B1 Type -->
+
+<!-- //로그인 후 -->
+
+</div>
+							<!-- //개발영역 -->
+						</li>
+						<!-- //myT -->
+					</ul>
+				</div>
+				<!-- //aside -->
+			</div>
+
+			<!-- lnb (Key 메뉴) -->
+			<div class="h_lnb_wrap">
+				<!-- 상품서비스 -->
+				<div class="h_lnb" id="gnb1" style="display:;">
+					<!-- 상품서비스 메뉴 html 호출 : /poc/gnb/gnb_twd.html -->
+				</div>
+				<!-- //상품서비스 -->
+				<!-- 다이렉트 -->
+				<div class="h_lnb" id="gnb2" style="display:;">
+                    <!-- 다이렉트 메뉴 html 호출 : /poc/gnb/gnb_tds.html -->
+                </div>
+				<!-- //다이렉트 -->
+				<!-- 멤버쉽 -->
+				<div class="h_lnb" id="gnb3" style="display: block;">
+		<div class="lnb_wrap">
+			<dl class="lnb">
+				<dt>
+					<button type="button" class="btn_allmenu" ucode="u3">
+						<span class="hidden">멤버십 전체메뉴 보기</span>
+						<span class="ico_menu"><i class="bar1"></i><i class="bar2"></i><i class="bar3"></i></span>
+					</button>
+				</dt>
+				<dd>
+					<ul class="lnb_list">
+						<li class="nb"><!-- snb가 있을 경우 class="nb"추가, 선택 class="on" 추가 -->
+							<a href="javascript:poclink('u3_1')" ucode="u3_1"><span>멤버십 가입</span><i class="arr"></i></a>
+							<!-- snb -->
+							<div class="snb_wrap" style="display:;">
+								<div class="snb_wrap_innr">
+									<ul class="snb_list1">
+										<li><a href="javascript:poclink('u3_1_1')" ucode="u3_1_1">멤버십 이용안내</a></li><!-- 선택 class="on" 추가 -->
+										<li><a href="javascript:poclink('u3_1_2')" ucode="u3_1_2">멤버십 등급안내</a></li>
+										<li><a href="javascript:poclink('u3_1_3')" ucode="u3_1_3">멤버십 카드 신청/변경</a></li>
+										<li><a href="javascript:poclink('u3_1_4')" ucode="u3_1_4">고객센터 카드신청 약관동의</a></li>
+									</ul>
+								</div>
+							</div>
+							<!-- //snb -->
+						</li>
+						<li class="nb">
+							<a href="javascript:poclink('u3_2')" ucode="u3_2"><span>멤버십 혜택</span><i class="arr"></i></a>
+							<!-- snb -->
+							<div class="snb_wrap" style="width:307px;display:;"><!-- //190214 수정 -->
+								<div class="snb_wrap_innr">
+									<ul class="snb_list1">
+										<li>
+											<!-- 190214 수정 -->
+											<div class="nb_dep4">
+												<a href="#" ucode="u3_2_1" class="btn_fold onlyNm"><span>제휴사 혜택</span><em class="hidden">하위메뉴 열기</em></a><!-- 클릭시 class="down" 추가 및 하위메뉴 영역 펼침, 히든텍스트 '하위메뉴 닫기'로 변경 --><!-- ucode로 링크값 삽입 없이 메뉴명만 변경할 경우 class="onlyNm" 추가 -->
+											</div>
+											<div class="snb_dep4_wrap colTy">
+											<!-- 2019-08-30 수정 [s] -->
+												<ul class="snb_list2" style="width:125px;">
+													<li><a href="javascript:poclink('u3_2_1_5')" ucode="u3_2_1_5">영화&amp;공연</a></li>
+													<li><a href="javascript:poclink('u3_2_1_3')" ucode="u3_2_1_3">베이커리 </a></li>
+													<li><a href="javascript:poclink('u3_2_1_4')" ucode="u3_2_1_4">편의점</a></li>
+												</ul>
+												<ul class="snb_list2" style="width:180px;">
+													<li><a href="javascript:poclink('u3_2_1_6')" ucode="u3_2_1_6">피자</a></li>
+													<li><a href="javascript:poclink('u3_2_1_7')" ucode="u3_2_1_7">카페</a></li>
+													<li><a href="javascript:poclink('u3_2_1_1')" ucode="u3_2_1_1">카테고리 전체보기</a></li>
+												</ul>
+											<!-- 2019-08-30 수정 [e] -->
+											</div>
+											<!-- //190214 수정 -->
+										</li>
+										<li>
+											<div class="nb_dep4">
+												<a href="#" ucode="u3_2_2" class="btn_fold onlyNm"><span>플러스 혜택</span><em class="hidden">하위메뉴 열기</em></a><!-- ucode로 링크값 삽입 없이 메뉴명만 변경할 경우 class="onlyNm" 추가 -->
+											</div>
+											<div class="snb_dep4_wrap">
+												<ul class="snb_list2">
+													<li><a href="javascript:poclink('u3_2_2_5')" ucode="u3_2_2_5">Table 행사</a></li>
+													<li><a href="javascript:poclink('u3_2_2_7')" ucode="u3_2_2_7">기프티콘</a></li>
+													<li><a href="javascript:poclink('u3_2_2_2')" ucode="u3_2_2_2">T 해피패스</a></li>
+													<li><a href="javascript:poclink('u3_2_2_3')" ucode="u3_2_2_3">제휴카드</a></li>
+													<li><a href="javascript:poclink('u3_2_2_6')" ucode="u3_2_2_6">제주도 멤버십</a></li>
+												</ul>
+											</div>
+										</li>
+										<li><a href="javascript:poclink('u3_2_4')" ucode="u3_2_4">국내 여행</a></li>
+										<li><a href="javascript:poclink('u3_2_5')" ucode="u3_2_5">데이터 혜택</a></li>
+									</ul>
+								</div>
+							</div>
+							<!-- //snb -->
+						</li>
+						<li class="nb selected" data-selected="selected">
+							<a href="javascript:poclink('u3_3')" ucode="u3_3"><span>VIP</span><i class="arr"></i></a>
+							<!-- snb -->
+							<div class="snb_wrap" style="display:;">
+								<div class="snb_wrap_innr">
+									<ul class="snb_list1">
+										<li class="on" data-selected="selected"><a href="javascript:poclink('u3_3_3')" ucode="u3_3_3">VIP Pick</a></li>
+										<li><a href="javascript:poclink('u3_3_4')" ucode="u3_3_4">VIP 컬처</a></li>
+										<li><a href="javascript:poclink('u3_3_6')" ucode="u3_3_6">VIP 라이프</a></li>
+									</ul>
+								</div>
+							</div>
+							<!-- //snb -->
+						</li>
+						<li class="nb">
+							<a href="javascript:poclink('u3_7')" ucode="u3_7"><span>추천 프로그램</span><i class="arr"></i></a>
+							<!-- snb -->
+							<div class="snb_wrap" style="display:;">
+								<div class="snb_wrap_innr">
+									<ul class="snb_list1">
+										<li><a href="javascript:poclink('u3_7_3')" ucode="u3_7_3">T Day</a></li>
+										<li><a href="javascript:poclink('u3_7_4')" ucode="u3_7_4">열린멤버십</a></li>
+									</ul>
+								</div>
+							</div>
+							<!-- //snb -->
+						</li>
+						<li class="nb">
+							<a href="javascript:poclink('u3_6')" ucode="u3_6"><span>글로벌 멤버십</span><i class="arr"></i></a>
+							<!-- snb -->
+							<div class="snb_wrap" style="display:;">
+								<div class="snb_wrap_innr">
+									<ul class="snb_list1">
+										<li><a href="javascript:poclink('u3_6_1')" ucode="u3_6_1">멤버십 해외여행 준비</a></li>
+										<li><a href="javascript:poclink('u3_6_8')" ucode="u3_6_8">괌 여행 혜택</a></li>
+										<li><a href="javascript:poclink('u3_6_9')" ucode="u3_6_9">사이판 여행 혜택</a></li>
+										<li><a href="javascript:poclink('u3_6_7')" ucode="u3_6_7">오키나와 여행 혜택</a></li>
+										<li><a href="javascript:poclink('u3_6_2')" ucode="u3_6_2">일본 여행 혜택</a></li>
+										<li><a href="javascript:poclink('u3_6_3')" ucode="u3_6_3">아시아 여행 혜택</a></li>
+										<li><a href="javascript:poclink('u3_6_4')" ucode="u3_6_4">유럽 여행 혜택</a></li>
+										<li><a href="javascript:poclink('u3_6_5')" ucode="u3_6_5">미국 여행 혜택</a></li>
+									</ul>
+								</div>
+							</div>
+							<!-- //snb -->
+						</li>
+					</ul>
+				</dd>
+				<!-- Shortcut 메뉴 -->
+				<dd>
+					<span class="g_link">
+						<a href="javascript:poclink('u3_1_3')" ucode="u3_1_3"><span>멤버십 카드 신청/변경</span></a>
+						<a href="javascript:poclink('u3_7_3')" ucode="u3_7_3"><span>T Day</span></a>
+						<a href="javascript:poclink('u7_10')" ucode="u7_10"><span>나의 멤버십</span></a>
+					</span>
+				</dd>
+				<!-- //Shortcut 메뉴 -->
+			</dl>
+		</div>
+	</div>
+				<!-- //멤버쉽 -->
+				<!-- 로밍 -->
+				<div class="h_lnb" id="gnb4" style="display:;">
+                    <!-- 로밍 메뉴 html 호출 : /poc/gnb/gnb_rmg.html -->
+                </div>
+				<!-- //로밍 -->
+				<!-- 혜택이벤트 -->
+				<div class="h_lnb" id="gnb5" style="display:;">
+					<!-- 혜택이벤트 메뉴 html 호출 : /poc/gnb/gnb_twd.html -->
+				</div>
+				<!-- //혜택이벤트 -->
+				<!-- 고객지원 -->
+				<div class="h_lnb" id="gnb6" style="display:;">
+					<!-- 고객지원 메뉴 html 호출 : /poc/gnb/gnb_twd.html -->
+				</div>
+				<!-- //고객지원 -->
+				<!-- my T -->
+				<div class="h_lnb" id="gnb7" style="display:;">
+					<div class="lnb_wrap">
+						<dl class="lnb">
+							<dt>
+								<button type="button" class="btn_allmenu">
+									<span class="hidden">my T 전체메뉴 보기</span>
+									<span class="ico_menu"><i class="bar1"></i><i class="bar2"></i><i class="bar3"></i></span>
+								</button>
+								<a href="javascript:poclink('u7')" ucode="u7"><span class="tit_img_myt">my T</span></a>
+							</dt>
+							<dd>
+								<ul class="lnb_list">
+									<li class="nb"><!-- snb가 있을 경우 class="nb"추가, 선택 class="on" 추가 -->
+										<a href="javascript:poclink('u7_1')" ucode="u7_1"><span>데이터/통화 관리</span><i class="arr"></i></a>
+										<!-- snb -->
+										<div class="snb_wrap">
+											<div class="snb_wrap_innr">
+												<ul class="snb_list1">
+													<li><a href="javascript:poclink('u7_1_1')" ucode="u7_1_1">나의 잔여 데이터/통화</a></li><!-- 선택 class="on" 추가 -->
+													<li><a href="javascript:poclink('u7_1_2')" ucode="u7_1_2">T가족모아데이터</a></li>
+													<li><a href="javascript:poclink('u7_1_3')" ucode="u7_1_3">T끼리 데이터 선물</a></li>
+													<li><a href="javascript:poclink('u7_1_4')" ucode="u7_1_4">음성/데이터 리필</a></li>
+													<li><a href="javascript:poclink('u7_1_5')" ucode="u7_1_5">팅요금 선물</a></li>
+													<li><a href="javascript:poclink('u7_1_6')" ucode="u7_1_6">데이터 함께쓰기 요금 충전</a></li>
+													<li><a href="javascript:poclink('u7_1_7')" ucode="u7_1_7">PPS 충전</a></li>
+													<li><a href="javascript:poclink('u7_1_8')" ucode="u7_1_8">데이터 한도 요금 충전</a></li>
+													<li><a href="javascript:poclink('u7_1_9')" ucode="u7_1_9">팅/ZEM 플랜/안심음성 요금 충전</a></li> <!-- 190919 [OP002-4056] 수정02 -->
+												</ul>
+											</div>
+										</div>
+										<!-- //snb -->
+									</li>
+									<li class="nb">
+										<a href="javascript:poclink('u7_3')" ucode="u7_3"><span>나의 요금</span><i class="arr"></i></a>
+										<!-- snb -->
+										<div class="snb_wrap" style="width:195px;">
+											<div class="snb_wrap_innr">
+												<ul class="snb_list1">
+													<li><a href="javascript:poclink('u7_3_1')" ucode="u7_3_1">사용 요금 내역</a></li>
+													<li><a href="javascript:poclink('u7_3_2')" ucode="u7_3_2">청구 요금 내역</a></li>
+													<li><a href="javascript:poclink('u7_3_3')" ucode="u7_3_3">소액결제 내역</a></li>
+													<li><a href="javascript:poclink('u7_3_4')" ucode="u7_3_4">콘텐츠이용료 내역</a></li>
+													<li>
+														<div class="nb_dep4">
+															<a href="#" ucode="u7_3_5" class="btn_fold onlyNm"><span>요금 납부</span><em class="hidden">하위메뉴 열기</em></a><!-- 클릭시 class="down" 추가 및 하위메뉴 영역 펼침, 히든텍스트 '하위메뉴 닫기'로 변경 --><!-- ucode로 링크값 삽입 없이 메뉴명만 변경할 경우 class="onlyNm" 추가 -->
+														</div>
+														<div class="snb_dep4_wrap">
+															<ul class="snb_list2">
+																<li><a href="javascript:poclink('u7_3_5_1')" ucode="u7_3_5_1">즉시 납부</a></li>
+																<li><a href="javascript:poclink('u7_3_5_2')" ucode="u7_3_5_2">입금 전용계좌 납부</a></li>
+																<li><a href="javascript:poclink('u7_3_5_3')" ucode="u7_3_5_3">포인트 요금 납부</a></li>
+																<li><a href="javascript:poclink('u7_3_5_4')" ucode="u7_3_5_4">콘텐츠이용료 선결제</a></li>
+																<li><a href="javascript:poclink('u7_3_5_5')" ucode="u7_3_5_5">소액결제 선결제</a></li>
+															</ul>
+														</div>
+													</li>
+													<li><a href="javascript:poclink('u7_3_6')" ucode="u7_3_6">요금납부내역 조회</a></li>
+													<li><a href="javascript:poclink('u7_3_7')" ucode="u7_3_7">요금안내서 설정</a></li>
+												</ul>
+											</div>
+										</div>
+										<!-- //snb -->
+									</li>
+									<li class="nb">
+										<a href="javascript:poclink('u7_9')" ucode="u7_9"><span>나의 가입정보</span><i class="arr"></i></a>
+										<!-- snb -->
+										<div class="snb_wrap">
+											<div class="snb_wrap_innr">
+												<ul class="snb_list1">
+													<li><a href="javascript:poclink('u7_9_1')" ucode="u7_9_1">나의 요금제/부가서비스/결합상품</a></li>
+													<li>
+														<div class="nb_dep4">
+															<a href="#" ucode="u7_9_2" class="btn_fold onlyNm"><span>서비스 신청 현황</span><em class="hidden">하위메뉴 열기</em></a><!-- ucode로 링크값 삽입 없이 메뉴명만 변경할 경우 class="onlyNm" 추가 -->
+														</div>
+														<div class="snb_dep4_wrap">
+															<ul class="snb_list2">
+																<li><a href="javascript:poclink('u7_9_2_1')" ucode="u7_9_2_1">인터넷/집전화/IPTV 신청 내역</a></li>
+																<li><a href="javascript:poclink('u7_9_2_2')" ucode="u7_9_2_2">인터넷전화 번호이동 신청 내역</a></li>
+																<li><a href="javascript:poclink('u7_9_2_3')" ucode="u7_9_2_3">공기계/중고폰 개통 내역</a></li>
+															</ul>
+														</div>
+													</li>
+													<li><a href="javascript:poclink('u7_9_3')" ucode="u7_9_3">나의 포인트</a></li>
+													<li><a href="javascript:poclink('u7_9_4')" ucode="u7_9_4">나의 혜택</a></li>
+													<li><a href="javascript:poclink('u7_9_5')" ucode="u7_9_5">나의 배송지</a></li>
+												</ul>
+											</div>
+										</div>
+										<!-- //snb -->
+									</li>
+									<li class="nb">
+										<a href="javascript:poclink('u7_2')" ucode="u7_2"><span>변경</span><i class="arr"></i></a>
+										<!-- snb -->
+										<div class="snb_wrap">
+											<div class="snb_wrap_innr">
+												<ul class="snb_list1">
+													<li><a href="javascript:poclink('u7_2_1')" ucode="u7_2_1">기기변경</a></li>
+													<li>
+														<div class="nb_dep4">
+															<a href="#" ucode="u7_2_2" class="btn_fold onlyNm"><span>번호변경</span><em class="hidden">하위메뉴 열기</em></a><!-- ucode로 링크값 삽입 없이 메뉴명만 변경할 경우 class="onlyNm" 추가 -->
+														</div>
+														<div class="snb_dep4_wrap">
+															<ul class="snb_list2">
+																<li><a href="javascript:poclink('u7_2_2_1')" ucode="u7_2_2_1">휴대폰 번호변경</a></li>
+																<li><a href="javascript:poclink('u7_2_2_2')" ucode="u7_2_2_2">집전화 번호변경</a></li>
+															</ul>
+														</div>
+													</li>
+													<li><a href="javascript:poclink('u7_2_3')" ucode="u7_2_3">멤버십 카드 재발급/종류변경</a></li>
+													<li><a href="javascript:poclink('u7_2_4')" ucode="u7_2_4">자동납부 신청/변경</a></li>
+													<li>
+														<div class="nb_dep4">
+															<a href="#" ucode="u7_2_6" class="btn_fold onlyNm"><span>콘텐츠 서비스 변경</span><em class="hidden">하위메뉴 열기</em></a><!-- ucode로 링크값 삽입 없이 메뉴명만 변경할 경우 class="onlyNm" 추가 -->
+														</div>
+														<div class="snb_dep4_wrap">
+															<ul class="snb_list2">
+																<li><a href="javascript:poclink('u7_2_6_1')" ucode="u7_2_6_1">콘텐츠이용료 변경</a></li>
+																<li><a href="javascript:poclink('u7_2_6_2')" ucode="u7_2_6_2">소액결제 변경</a></li>
+															</ul>
+														</div>
+													</li>
+													<li>
+														<div class="nb_dep4">
+															<a href="#" ucode="u7_2_7" class="btn_fold onlyNm"><span>인터넷/집전화/IPTV 변경</span><em class="hidden">하위메뉴 열기</em></a><!-- ucode로 링크값 삽입 없이 메뉴명만 변경할 경우 class="onlyNm" 추가 -->
+														</div>
+														<div class="snb_dep4_wrap">
+															<ul class="snb_list2">
+																<li><a href="javascript:poclink('u7_2_7_1')" ucode="u7_2_7_1">설치장소 변경</a></li>
+																<li><a href="javascript:poclink('u7_2_7_2')" ucode="u7_2_7_2">상품 변경</a></li>
+																<li><a href="javascript:poclink('u7_2_7_3')" ucode="u7_2_7_3">약정기간 변경</a></li>
+																<li><a href="javascript:poclink('u7_2_7_4')" ucode="u7_2_7_4">명의 변경</a></li>
+															</ul>
+														</div>
+													</li>
+												</ul>
+											</div>
+										</div>
+										<!-- //snb -->
+									</li>
+									<li class="nb">
+										<a href="javascript:poclink('u7_4')" ucode="u7_4"><span>분실/정지/해제</span><i class="arr"></i></a>
+										<!-- snb -->
+										<div class="snb_wrap">
+											<div class="snb_wrap_innr">
+												<ul class="snb_list1">
+													<li>
+														<div class="nb_dep4">
+															<a href="#" ucode="u7_4_1" class="btn_fold onlyNm"><span>휴대폰 분실/정지/해제</span><em class="hidden">하위메뉴 열기</em></a><!-- ucode로 링크값 삽입 없이 메뉴명만 변경할 경우 class="onlyNm" 추가 -->
+														</div>
+														<div class="snb_dep4_wrap">
+															<ul class="snb_list2">
+																<li><a href="javascript:poclink('u7_4_1_1')" ucode="u7_4_1_1">휴대폰 분실신고/해제</a></li>
+																<li><a href="javascript:poclink('u7_4_1_2')" ucode="u7_4_1_2">휴대폰 정지/해제</a></li>
+																<li><a href="javascript:poclink('u7_4_1_3')" ucode="u7_4_1_3">휴대폰 임대 신청</a></li>
+															</ul>
+														</div>
+													</li>
+													<li>
+														<div class="nb_dep4">
+															<a href="#" ucode="u7_4_2" class="btn_fold onlyNm"><span>인터넷,전화,IPTV 정지/해제/해지</span><em class="hidden">하위메뉴 열기</em></a><!-- ucode로 링크값 삽입 없이 메뉴명만 변경할 경우 class="onlyNm" 추가 -->
+														</div>
+														<div class="snb_dep4_wrap">
+															<ul class="snb_list2">
+																<li><a href="javascript:poclink('u7_4_2_1')" ucode="u7_4_2_1">정지/해제</a></li>
+																<li><a href="javascript:poclink('u7_4_2_2')" ucode="u7_4_2_2">해지</a></li>
+															</ul>
+														</div>
+													</li>
+													<li><a href="javascript:poclink('u7_4_3')" ucode="u7_4_3">멤버십 일시정지/해제</a></li>
+												</ul>
+											</div>
+										</div>
+										<!-- //snb -->
+									</li>
+								</ul>
+							</dd>
+							<!-- Shortcut 메뉴 -->
+							<dd>
+								<span class="g_link">
+									<a href="javascript:poclink('u7_1_1')" ucode="u7_1_1"><span>나의 잔여 데이터/통화</span></a>
+									<a href="javascript:poclink('u7_3_3')" ucode="u7_3_3"><span>소액결제 내역</span></a>
+									<a href="javascript:poclink('u7_3_5_1')" ucode="u7_3_5_1"><span>즉시 납부</span></a>
+								</span>
+							</dd>
+							<!-- //Shortcut 메뉴 -->
+						</dl>
+					</div>
+				</div>
+				<!-- //my T -->
+			</div>
+			<!-- //lnb (Key 메뉴) -->
+
+			<!-- lnb allmenu (1 depth별 전체메뉴 보기) -->
+			<div class="h_lnb_allwrap" style="display:;"><!-- 1depth별 전체메뉴 버튼 클릭시 영역 펼침 -->
+				<!-- 상품서비스 -->
+				<div class="h_lnb_allmenu menu1 u1" style="display:;"><!-- 1depth별 전체메뉴 버튼 클릭시 해당 메뉴 영역 펼침 -->
+					<!-- 상품서비스 메뉴 html 호출 : /poc/gnb/gnb_twd.html -->
+				</div>
+				<!-- //상품서비스 -->
+				<!-- 다이렉트 -->
+				<div class="h_lnb_allmenu menu2 u2" style="display:;">
+					<!-- 다이렉트 메뉴 html 호출 : /poc/gnb/gnb_tds.html -->
+				</div>
+				<!-- //다이렉트 -->
+				<!-- 멤버쉽 -->
+				<div class="h_lnb_allmenu menu3 u3" style="display:;"><!-- 1depth별 전체메뉴 버튼 클릭시 해당 메뉴 영역 펼침 -->
+		<button type="button" class="btn_m_close type1"><span>T멤버십 전체메뉴 닫기</span></button>
+		<div class="wrap_innr">
+			<div class="m_tit">
+				<a href="javascript:poclink('u3')" ucode="u3">T멤버십</a>
+				<div class="fRight">
+					<a href="javascript:poclink('u9_5_1')" ucode="u9_5_1" class="btn_sitemap onlyLink"><span><i></i>전체메뉴 보기</span></a><!-- ucode로 메뉴명 변경 없이 링크값만 삽입할 경우 class="onlyLink" 추가 -->
+				</div>
+			</div>
+			<div class="m_list col6">
+				<div>
+					<strong ucode="u3_1" class="h0 onlyNm">멤버십 가입</strong><!-- ucode로 링크값 삽입 없이 메뉴명만 변경할 경우 class="onlyNm" 추가 -->
+					<ul>
+						<li><a href="javascript:poclink('u3_1_1')" ucode="u3_1_1">멤버십 이용안내</a></li>
+						<li><a href="javascript:poclink('u3_1_2')" ucode="u3_1_2">멤버십 등급안내</a></li>
+						<li><a href="javascript:poclink('u3_1_3')" ucode="u3_1_3">멤버십 카드 신청/변경</a></li>
+						<li><a href="javascript:poclink('u3_1_4')" ucode="u3_1_4">고객센터 카드신청 약관동의</a></li>
+					</ul>
+				</div>
+				<div>
+					<strong ucode="u3_2" class="h0 onlyNm">멤버십 혜택</strong><!-- ucode로 링크값 삽입 없이 메뉴명만 변경할 경우 class="onlyNm" 추가 -->
+					<ul>
+						<li>
+							<div class="view_smenu">
+								<a href="#" ucode="u3_2_1" class="btn_fold onlyNm"><span>제휴사 혜택</span><em class="hidden">하위메뉴 열기</em></a><!-- 클릭시 class="down" 추가 및 하위메뉴 영역 펼침, 히든텍스트 '하위메뉴 닫기'로 변경 --><!-- ucode로 링크값 삽입 없이 메뉴명만 변경할 경우 class="onlyNm" 추가 -->
+							</div>
+							<div class="smenu">
+								<ul>
+								<!-- 2019-08-30 수정 [s] -->
+									<li><a href="javascript:poclink('u3_2_1_5')" ucode="u3_2_1_5">영화&amp;공연</a></li>
+									<li><a href="javascript:poclink('u3_2_1_3')" ucode="u3_2_1_3">베이커리 </a></li>
+									<li><a href="javascript:poclink('u3_2_1_4')" ucode="u3_2_1_4">편의점</a></li>
+									<li><a href="javascript:poclink('u3_2_1_6')" ucode="u3_2_1_6">피자</a></li>
+									<li><a href="javascript:poclink('u3_2_1_7')" ucode="u3_2_1_7">카페</a></li>
+									<li><a href="javascript:poclink('u3_2_1_1')" ucode="u3_2_1_1">카테고리 전체보기</a></li>
+								<!-- 2019-08-30 수정 [s] -->
+								</ul>
+							</div>
+						</li>
+						<li>
+							<div class="view_smenu">
+								<a href="#" ucode="u3_2_2" class="btn_fold onlyNm"><span>플러스 혜택</span><em class="hidden">하위메뉴 열기</em></a><!-- ucode로 링크값 삽입 없이 메뉴명만 변경할 경우 class="onlyNm" 추가 -->
+							</div>
+							<div class="smenu">
+								<ul>
+									<li><a href="javascript:poclink('u3_2_2_5')" ucode="u3_2_2_5">Table 행사</a></li>
+									<li><a href="javascript:poclink('u3_2_2_7')" ucode="u3_2_2_7">기프티콘</a></li>
+									<li><a href="javascript:poclink('u3_2_2_2')" ucode="u3_2_2_2">T 해피패스</a></li>
+									<li><a href="javascript:poclink('u3_2_2_3')" ucode="u3_2_2_3">제휴카드</a></li>
+									<li><a href="javascript:poclink('u3_2_2_6')" ucode="u3_2_2_6">제주도 멤버십</a></li>
+								</ul>
+							</div>
+						</li>
+						<li><a href="javascript:poclink('u3_2_4')" ucode="u3_2_4">국내 여행</a></li>
+						<li><a href="javascript:poclink('u3_2_5')" ucode="u3_2_5">데이터 혜택</a></li>
+					</ul>
+				</div>
+				<div>
+					<strong class="h0"><a href="javascript:poclink('u3_3')" ucode="u3_3">VIP</a></strong>
+					<ul>
+						<li><a href="javascript:poclink('u3_3_3')" ucode="u3_3_3">VIP Pick</a></li>
+						<li><a href="javascript:poclink('u3_3_4')" ucode="u3_3_4">VIP 컬처</a></li>
+						<li><a href="javascript:poclink('u3_3_6')" ucode="u3_3_6">VIP 라이프</a></li>
+					</ul>
+				</div>
+				<div>
+					<strong ucode="u3_7" class="h0 onlyNm">추천 프로그램</strong><!-- ucode로 링크값 삽입 없이 메뉴명만 변경할 경우 class="onlyNm" 추가 -->
+					<ul>
+						<li><a href="javascript:poclink('u3_7_3')" ucode="u3_7_3">T Day</a></li>
+						<li><a href="javascript:poclink('u3_7_4')" ucode="u3_7_4">열린멤버십</a></li>
+					</ul>
+				</div>
+				<div>
+					<strong class="h0"><a href="javascript:poclink('u3_6')" ucode="u3_6">글로벌 멤버십</a></strong>
+					<ul>
+						<li><a href="javascript:poclink('u3_6_1')" ucode="u3_6_1">멤버십 해외여행 준비</a></li>
+						<li><a href="javascript:poclink('u3_6_8')" ucode="u3_6_8">괌 여행 혜택</a></li>
+						<li><a href="javascript:poclink('u3_6_9')" ucode="u3_6_9">사이판 여행 혜택</a></li>
+						<li><a href="javascript:poclink('u3_6_7')" ucode="u3_6_7">오키나와 여행 혜택</a></li>
+						<li><a href="javascript:poclink('u3_6_2')" ucode="u3_6_2">일본 여행 혜택</a></li>
+						<li><a href="javascript:poclink('u3_6_3')" ucode="u3_6_3">아시아 여행 혜택</a></li>
+						<li><a href="javascript:poclink('u3_6_4')" ucode="u3_6_4">유럽 여행 혜택</a></li>
+						<li><a href="javascript:poclink('u3_6_5')" ucode="u3_6_5">미국 여행 혜택</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+				<!-- //멤버쉽 -->
+				<!-- 로밍 -->
+				<div class="h_lnb_allmenu menu4 u4" style="display:;">
+					<!-- 로밍 메뉴 html 호출 : /poc/gnb/gnb_rmg.html -->
+				</div>
+				<!-- //로밍 -->
+				<!-- 혜택이벤트 -->
+				<div class="h_lnb_allmenu menu5 u6" style="display:;"><!-- 1depth별 전체메뉴 버튼 클릭시 해당 메뉴 영역 펼침 -->
+					<!-- 혜택이벤트 메뉴 html 호출 : /poc/gnb/gnb_twd.html -->
+				</div>
+				<!-- //혜택이벤트 -->
+				<!-- 고객지원 -->
+				<div class="h_lnb_allmenu menu6 u5" style="display:;"><!-- 1depth별 전체메뉴 버튼 클릭시 해당 메뉴 영역 펼침 -->
+					<!-- 고객지원 메뉴 html 호출 : /poc/gnb/gnb_twd.html -->
+				</div>
+				<!-- //고객지원 -->
+				<!-- my T -->
+				<div class="h_lnb_allmenu menu7 u7" style="display:;"><!-- 1depth별 전체메뉴 버튼 클릭시 해당 메뉴 영역 펼침 -->
+					<button type="button" class="btn_m_close type1"><span>my T 전체메뉴 닫기</span></button>
+					<div class="wrap_innr">
+						<div class="m_tit">
+							<a href="javascript:poclink('u7')" ucode="u7"><span class="tit_img_myt">my T</span></a>
+							<div class="fRight">
+								<a href="javascript:poclink('u9_5_1')" ucode="u9_5_1" class="btn_sitemap onlyLink"><span><i></i>전체메뉴 보기</span></a><!-- ucode로 메뉴명 변경 없이 링크값만 삽입할 경우 class="onlyLink" 추가 -->
+							</div>
+						</div>
+						<div class="m_list col6">
+							<div>
+								<strong ucode="u7_1" class="h0 onlyNm">데이터/통화 관리</strong><!-- ucode로 링크값 삽입 없이 메뉴명만 변경할 경우 class="onlyNm" 추가 -->
+								<ul>
+									<li><a href="javascript:poclink('u7_1_1')" ucode="u7_1_1">나의 잔여 데이터/통화</a></li>
+									<li><a href="javascript:poclink('u7_1_2')" ucode="u7_1_2">T가족모아데이터</a></li>
+									<li><a href="javascript:poclink('u7_1_3')" ucode="u7_1_3">T끼리 데이터 선물</a></li>
+									<li><a href="javascript:poclink('u7_1_4')" ucode="u7_1_4">음성/데이터 리필</a></li>
+									<li><a href="javascript:poclink('u7_1_5')" ucode="u7_1_5">팅요금 선물</a></li>
+									<li><a href="javascript:poclink('u7_1_6')" ucode="u7_1_6">데이터 함께쓰기 요금 충전</a></li>
+									<li><a href="javascript:poclink('u7_1_7')" ucode="u7_1_7">PPS 충전</a></li>
+									<li><a href="javascript:poclink('u7_1_8')" ucode="u7_1_8">데이터 한도 요금 충전</a></li>
+									<li><a href="javascript:poclink('u7_1_9')" ucode="u7_1_9">팅/ZEM 플랜/안심음성 요금 충전</a></li>
+								</ul>
+							</div>
+							<div>
+								<strong ucode="u7_3" class="h0 onlyNm">나의 요금</strong><!-- ucode로 링크값 삽입 없이 메뉴명만 변경할 경우 class="onlyNm" 추가 -->
+								<ul>
+									<li><a href="javascript:poclink('u7_3_1')" ucode="u7_3_1">사용 요금 내역</a></li>
+									<li><a href="javascript:poclink('u7_3_2')" ucode="u7_3_2">청구 요금 내역</a></li>
+									<li><a href="javascript:poclink('u7_3_3')" ucode="u7_3_3">소액결제 내역</a></li>
+									<li><a href="javascript:poclink('u7_3_4')" ucode="u7_3_4">콘텐츠이용료 내역</a></li>
+									<li>
+										<div class="view_smenu">
+											<a href="#" ucode="u7_3_5" class="btn_fold onlyNm"><span>요금 납부</span><em class="hidden">하위메뉴 열기</em></a><!-- 클릭시 class="down" 추가 및 하위메뉴 영역 펼침, 히든텍스트 '하위메뉴 닫기'로 변경 --><!-- ucode로 링크값 삽입 없이 메뉴명만 변경할 경우 class="onlyNm" 추가 -->
+										</div>
+										<div class="smenu">
+											<ul>
+												<li><a href="javascript:poclink('u7_3_5_1')" ucode="u7_3_5_1">즉시 납부</a></li>
+												<li><a href="javascript:poclink('u7_3_5_2')" ucode="u7_3_5_2">입금 전용계좌 납부</a></li>
+												<li><a href="javascript:poclink('u7_3_5_3')" ucode="u7_3_5_3">포인트 요금 납부</a></li>
+												<li><a href="javascript:poclink('u7_3_5_4')" ucode="u7_3_5_4">콘텐츠이용료 선결제</a></li>
+												<li><a href="javascript:poclink('u7_3_5_5')" ucode="u7_3_5_5">소액결제 선결제</a></li>
+											</ul>
+										</div>
+									</li>
+									<li><a href="javascript:poclink('u7_3_6')" ucode="u7_3_6">요금납부내역 조회</a></li>
+									<li><a href="javascript:poclink('u7_3_7')" ucode="u7_3_7">요금안내서 설정</a></li>
+								</ul>
+							</div>
+							<div>
+								<strong class="h0"><a href="javascript:poclink('u7_9')" ucode="u7_9">나의 가입정보</a></strong>
+								<ul>
+									<li><a href="javascript:poclink('u7_9_1')" ucode="u7_9_1">나의 요금제/부가서비스/결합상품</a></li>
+									<li>
+										<div class="view_smenu">
+											<a href="#" ucode="u7_9_2" class="btn_fold onlyNm"><span>서비스 신청 현황</span><em class="hidden">하위메뉴 열기</em></a><!-- ucode로 링크값 삽입 없이 메뉴명만 변경할 경우 class="onlyNm" 추가 -->
+										</div>
+										<div class="smenu">
+											<ul>
+												<li><a href="javascript:poclink('u7_9_2_1')" ucode="u7_9_2_1">인터넷/집전화/IPTV 신청 내역</a></li>
+												<li><a href="javascript:poclink('u7_9_2_2')" ucode="u7_9_2_2">인터넷전화 번호이동 신청 내역</a></li>
+												<li><a href="javascript:poclink('u7_9_2_3')" ucode="u7_9_2_3">공기계/중고폰 개통 내역</a></li>
+											</ul>
+										</div>
+									</li>
+									<li><a href="javascript:poclink('u7_9_3')" ucode="u7_9_3">나의 포인트</a></li>
+									<li><a href="javascript:poclink('u7_9_4')" ucode="u7_9_4">나의 혜택</a></li>
+									<li><a href="javascript:poclink('u7_9_5')" ucode="u7_9_5">나의 배송지</a></li>
+								</ul>
+								<strong><a href="javascript:poclink('u7_10')" ucode="u7_10">나의 멤버십</a></strong>
+								<strong><a href="javascript:poclink('u7_11')" ucode="u7_11">통화 내역</a></strong>
+							</div>
+							<div>
+								<strong ucode="u7_2" class="h0 onlyNm">변경</strong><!-- ucode로 링크값 삽입 없이 메뉴명만 변경할 경우 class="onlyNm" 추가 -->
+								<ul>
+									<li><a href="javascript:poclink('u7_2_1')" ucode="u7_2_1">기기변경</a></li>
+									<li>
+										<div class="view_smenu">
+											<a href="#" ucode="u7_2_2" class="btn_fold onlyNm"><span>번호변경</span><em class="hidden">하위메뉴 열기</em></a><!-- ucode로 링크값 삽입 없이 메뉴명만 변경할 경우 class="onlyNm" 추가 -->
+										</div>
+										<div class="smenu">
+											<ul>
+												<li><a href="javascript:poclink('u7_2_2_1')" ucode="u7_2_2_1">휴대폰 번호변경</a></li>
+												<li><a href="javascript:poclink('u7_2_2_2')" ucode="u7_2_2_2">집전화 번호변경</a></li>
+											</ul>
+										</div>
+									</li>
+									<li><a href="javascript:poclink('u7_2_3')" ucode="u7_2_3">멤버십 카드 재발급/종류변경</a></li>
+									<li><a href="javascript:poclink('u7_2_4')" ucode="u7_2_4">자동납부 신청/변경</a></li>
+									<li>
+										<div class="view_smenu">
+											<a href="#" ucode="u7_2_6" class="btn_fold onlyNm"><span>콘텐츠 서비스 변경</span><em class="hidden">하위메뉴 열기</em></a><!-- ucode로 링크값 삽입 없이 메뉴명만 변경할 경우 class="onlyNm" 추가 -->
+										</div>
+										<div class="smenu">
+											<ul>
+												<li><a href="javascript:poclink('u7_2_6_1')" ucode="u7_2_6_1">콘텐츠이용료 변경</a></li>
+												<li><a href="javascript:poclink('u7_2_6_2')" ucode="u7_2_6_2">소액결제 변경</a></li>
+											</ul>
+										</div>
+									</li>
+									<li>
+										<div class="view_smenu">
+											<a href="#" ucode="u7_2_7" class="btn_fold onlyNm"><span>인터넷/집전화/IPTV 변경</span><em class="hidden">하위메뉴 열기</em></a><!-- ucode로 링크값 삽입 없이 메뉴명만 변경할 경우 class="onlyNm" 추가 -->
+										</div>
+										<div class="smenu">
+											<ul>
+												<li><a href="javascript:poclink('u7_2_7_1')" ucode="u7_2_7_1">설치장소 변경</a></li>
+												<li><a href="javascript:poclink('u7_2_7_2')" ucode="u7_2_7_2">상품 변경</a></li>
+												<li><a href="javascript:poclink('u7_2_7_3')" ucode="u7_2_7_3">약정기간 변경</a></li>
+												<li><a href="javascript:poclink('u7_2_7_4')" ucode="u7_2_7_4">명의 변경</a></li>
+											</ul>
+										</div>
+									</li>
+								</ul>
+							</div>
+							<div>
+								<strong ucode="u7_4" class="h0 onlyNm">분실/정지/해제</strong><!-- ucode로 링크값 삽입 없이 메뉴명만 변경할 경우 class="onlyNm" 추가 -->
+								<ul>
+									<li>
+										<div class="view_smenu">
+											<a href="#" ucode="u7_4_1" class="btn_fold onlyNm"><span>휴대폰 분실/정지/해제</span><em class="hidden">하위메뉴 열기</em></a><!-- ucode로 링크값 삽입 없이 메뉴명만 변경할 경우 class="onlyNm" 추가 -->
+										</div>
+										<div class="smenu">
+											<ul>
+												<li><a href="javascript:poclink('u7_4_1_1')" ucode="u7_4_1_1">휴대폰 분실신고/해제</a></li>
+												<li><a href="javascript:poclink('u7_4_1_2')" ucode="u7_4_1_2">휴대폰 정지/해제</a></li>
+												<li><a href="javascript:poclink('u7_4_1_3')" ucode="u7_4_1_3">휴대폰 임대 신청</a></li>
+											</ul>
+										</div>
+									</li>
+									<li>
+										<div class="view_smenu">
+											<a href="#" ucode="u7_4_2" class="btn_fold onlyNm"><span>인터넷,전화,IPTV 정지/해제/해지</span><em class="hidden">하위메뉴 열기</em></a><!-- ucode로 링크값 삽입 없이 메뉴명만 변경할 경우 class="onlyNm" 추가 -->
+										</div>
+										<div class="smenu">
+											<ul>
+												<li><a href="javascript:poclink('u7_4_2_1')" ucode="u7_4_2_1">정지/해제</a></li>
+												<li><a href="javascript:poclink('u7_4_2_2')" ucode="u7_4_2_2">해지</a></li>
+											</ul>
+										</div>
+									</li>
+									<li><a href="javascript:poclink('u7_4_3')" ucode="u7_4_3">멤버십 일시정지/해제</a></li>
+								</ul>
+							</div>
+							<div>
+								<strong class="h0"><a href="javascript:poclink('u7_5')" ucode="u7_5">나의 쇼핑</a></strong>
+								<strong ucode="u7_6" class="onlyNm">나의 활동</strong><!-- ucode로 링크값 삽입 없이 메뉴명만 변경할 경우 class="onlyNm" 추가 -->
+								<ul>
+									<li><a href="javascript:poclink('u7_6_1')" ucode="u7_6_1">my 알림</a></li>
+									<li><a href="javascript:poclink('u7_6_2')" ucode="u7_6_2">나의 문의 내역</a></li>
+									<li><a href="javascript:poclink('u7_6_3')" ucode="u7_6_3">상품 후기</a></li>
+								</ul>
+								<strong ucode="u7_7" class="onlyNm">보관함</strong><!-- ucode로 링크값 삽입 없이 메뉴명만 변경할 경우 class="onlyNm" 추가 -->
+								<ul>
+									<li><a href="javascript:poclink('u7_7_1')" ucode="u7_7_1">담은 보관함</a></li>
+									<li><a href="javascript:poclink('u7_7_2')" ucode="u7_7_2">컬러링/벨소리 보관함</a></li>
+									<li><a href="javascript:poclink('u7_7_3')" ucode="u7_7_3">나의 쿠폰</a></li>
+								</ul>
+								<strong><a href="javascript:poclink('u7_8')" ucode="u7_8">이용회선 관리</a></strong>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- //my T -->
+			</div>
+			<!-- //lnb allmenu (1 depth별 전체메뉴 보기) -->
+			<!-- //gnb 고도화 수정 -->
+
+			<!-- 검색 -->
+			<div class="t_srch_wrap no_bg" style="display:none;z-index:5000;">
+				<!-- 개발영역 -->
+				<div class="t_srch_con_nw" id="gnb_search">
+					<!-- 검색 : /poc/gnb/gnb_search.html -->
+				</div>
+				<div class="line_shadow"></div>
+				<!-- //개발영역 -->
+			</div>
+			<!-- //검색 -->
+		</div>
+	</div>
+	<!-- //header -->
+	<hr>
+
+    <iframe id="ifrBodyIpus" name="ifrBodyIpus" style="display: none;" src="/web/html/common/ipus.jsp?IPUS_ID=YES24"></iframe>
+
+    <form method="post" name="frm1" target="ifrBody" action="https://tmovie.tmembership.tworld.co.kr/MovieGateway.aspx">
+	<input type="hidden" name="tParam" id="tParam" value="6d8397373ad8a3157d99a0cb263ad7af7e2dcc5f3a8530bd9efcf394346b614c3931477bf80bff8bb758c6e0e17d237e90313649c2cce4d48012a33b4be899b006941c455db0c27925b6187a2cd5fa82b57028fb9a24330f31011e59046f8a44063007b1108562785d04d9f8de594f810ccde6dc935bf92ad32ab784a46d3865487d936a225a98548cef0fb535b93b9abe2ccb1c5562f3e0a050a81705d62e73e11210f0a3d1cbd2c0cb132fe5b209877cb3ac77ed5e7e4ca9142186ea0f7f57971e1072de09fdf3c1a64bd9653720bc863bab23b9fbae8ad55a955e6da9676f">
+	<input type="hidden" name="path" id="path" value="">
+
+	<div id="container"> <!-- container -->
+		<div id="content"> <!-- content -->
+			<!-- Title -->
+			<div class="iframeTop">
+				<!-- HTTPS 적용 PJT(2019.04.11, CDN 적용) -->
+				<h1 class="titDep1"><img src="//cdnwtmembership.tworld.co.kr:8000/poc/img/membership/vip/tit_ms3.2.1.gif" alt="VIP 컬쳐"></h1>
+			</div>
+
+			<div class="iframeWrap">
+				<!--<div class="iframeBottom">-->
+					<iframe src="" id="ifrBody" name="ifrBody" width="100%" height="1132px;" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" title="빈프레임" style="height: 2420px;"></iframe>
+				<!--</div>-->
+			</div>
+		</div> <!-- //content -->
+    </div> <!-- //container -->
+    </form>
+
+	<hr>
+	<!-- footer -->
+	<div id="footer">
+		<!-- Footer -->
+		<div class="f_con">
+			<a href="#" class="btn_top"><img src="/poc/gnb/inc/img/footer/btn_top.gif" alt="위로이동"></a><!-- 2016-08-09 수정 -->
+			<div class="con1">
+				<div class="con_l">
+					<ul>
+						<!-- 2016-08-10 링크수정 -->
+						<li><a href="https://www.skt-id.co.kr/member/terms/termsInfo.do?chnlId=TWDT&amp;client_type=WEB&amp;stplTypCd=01" onclick="window.open(this.href,'','width=550,height=700,scrollbars=yes'); return false" target="_blank" title="새창열림">이용약관</a></li><!-- 2016-09-25 수정 -->
+						<li><a href="https://www.skt-id.co.kr/member/terms/termsInfo.do?chnlId=TWDT&amp;client_type=WEB&amp;stplTypCd=02" onclick="window.open(this.href,'','width=550,height=700,scrollbars=yes'); return false" target="_blank" title="새창열림"><strong>개인정보 처리방침</strong></a></li><!-- 2016-09-25 수정 -->
+						<li><a href="http://www.tworld.co.kr/poc/html/util/member_policy/UT2.1.2.2T.4AT.html">멤버십 회원약관</a></li>
+						<li><a href="http://www.tworld.co.kr/poc/html/util/member_policy/UT2.1.2.2T.4T.html"><strong>멤버십 개인정보 처리방침</strong></a></li>
+						<li><a href="http://www.tworld.co.kr/poc/html/util/member_policy/UT2.1.2.2T.8T.1T.html">T멤버십 전자상거래 이용약관</a></li>
+						<li><a href="http://www.tworld.co.kr/poc/html/util/member_policy/UT2.1.2.2T.8T.2T.html"><strong>T멤버십 전자상거래 개인정보 처리방침</strong></a></li><!-- 2016-08-03 추가 -->
+					</ul>
+					<ul>
+						<li><a href="http://www.tworld.co.kr/poc/html/util/member_policy/UT2.1.2.2T.9T.1T.html">만화로 보는 이용약관</a></li><!-- 2016-08-03 위치이동 -->
+						<li><a href="http://www.tworld.co.kr/poc/html/util/member_policy/UT2.2.html">책임의 한계와 법적고지</a></li>
+						<li><a href="http://www.tworld.co.kr/poc/html/util/common/UT10.3P.html" onclick="window.open(this.href,'','width=650,height=330,scrollbars=yes'); return false" target="_blank" title="새창열림">이메일 무단 수집거부  </a></li>
+						<li><a href="/poc/footer/footer_pop.html" onclick="window.open(this.href,'','width=650,height=330,scrollbars=yes'); return false" target="_blank" title="새창열림">분쟁처리절차</a></li><!-- 2016-08-24 수정 -->
+						<li class="btnType"><a href="/poc/html/recommend/pop_partnership.html" class="btnBlack" onclick="window.open(this.href,'','width=650,height=550,scrollbars=yes'); return false" target="_blank" title="새창열림">T멤버십 제휴 제안</a></li><!-- 2020-02-07 수정 -->
+						<!-- // 2016-08-10 링크수정 -->
+					</ul>
+				</div>
+				<div class="con_r">
+					<a href="http://www.tworld.co.kr/eng/index.html" class="btnS btnBlack" target="_blank" title="새창이동">English</a><div class="family_site"><!-- 2016-08-03 링크수정 -->
+						<a href="#none">Family Site</a>
+						<ul class="fm_list">
+							<!-- 2016-08-10 링크수정 -->
+							<li><a href="http://b2b.tworld.co.kr" target="_blank" title="새창이동">기업 T world</a></li><!-- 2016-11-25 수정 -->
+							<li><a href="http://www.sktelecom.com/" target="_blank" title="새창이동">SK Telecom</a></li><!-- 2017-11-30 수정 -->
+							<li><a href="http://www.skbroadband.com/Main.do" target="_blank" title="새창이동">SK 브로드밴드</a></li>
+							<li><a href="http://www.sksports.net/" target="_blank" title="새창이동">SK 스포츠단</a></li>
+							<li><a href="http://ttogether.sktelecom.com/" target="_blank" title="새창이동">T together</a></li>
+							<li><a href="http://www.twifi.co.kr" target="_blank" title="새창이동">T wifi zone</a></li><!-- 2016-09-28 수정 -->
+							<li><a href="https://partneron.sktelecom.com/bp/main.do" target="_blank" title="새창이동">파트너온</a></li><!-- 2017-11-30 수정 -->
+							<li><a href="http://www.nugu.co.kr/ " target="_blank" title="새창이동">NUGU </a></li><!-- 2016-09-21 추가 -->
+							<li><a href="https://www.adtcaps.co.kr/" target="_blank" title="새창이동">ADT캡스</a></li><!-- 2016-10-25 추가 -->
+							<!-- // 2016-08-10 링크수정 -->
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="con2">
+				<div class="clearfix">
+					<!-- 2017-03-28 경로수정[s] -->
+					<ul class="fLeft">
+						<li><a href="http://tmembership.tworld.co.kr/tglink.jsp?url=http://www.sktform.co.kr/index.php/86439&amp;urlname=get_815" target="_blank" title="새창이동"><img src="/poc/img/footer/footer_link2.gif" alt="국가고객만족도 20년 연속 1위"></a></li><!-- 2017-03-15 수정 -->
+						<li><a href="http://tmembership.tworld.co.kr/tglink.jsp?url=http://www.sktform.co.kr/index.php/76682&amp;urlname=get_816" target="_blank" title="새창이동"><img src="/poc/img/footer/footer_link3.gif" alt="한국서비스품질지수 18년 연속 1위"></a></li><!-- 2016-09-25 수정 -->
+						<li><a href="http://tmembership.tworld.co.kr/tglink.jsp?url=http://www.sktform.co.kr/index.php/81269&amp;urlname=get_817" target="_blank" title="새창이동"><img src="/poc/img/footer/footer_link4.gif" alt="한국산업고객만족도 20년 연속 1위"></a></li><!-- 2016-10-06 수정 -->
+						<li><a href="http://tmembership.tworld.co.kr/tglink.jsp?url=http://www.wiseuser.go.kr&amp;urlname=get_818" target="_blank" title="새창이동"><img src="/poc/img/footer/footer_link5.gif" alt="와이즈유저"></a></li>
+					</ul>
+					<!-- 2017-03-28 경로수정[e] -->
+					<ul class="fRight">
+						<!-- 2016-08-10 링크수정 -->
+						<li><a href="http://www.tworld.co.kr/tglink.jsp?urlname=get_3043" target="_blank" title="새창이동"><img src="/poc/gnb/inc/img/footer/sns_twitter.gif" alt="Twitter"></a></li>
+						<li><a href="http://www.tworld.co.kr/tglink.jsp?urlname=get_3045" target="_blank" title="새창이동"><img src="/poc/gnb/inc/img/footer/sns_facebook.gif" alt="Facebook"></a></li>
+						<li><a href="http://www.tworld.co.kr/tglink.jsp?urlname=get_3046" target="_blank" title="새창이동"><img src="/poc/gnb/inc/img/footer/sns_blog.gif" alt="Blog"></a></li>
+						<li><a href="http://www.tworld.co.kr/tglink.jsp?urlname=get_3047" target="_blank" title="새창이동"><img src="/poc/gnb/inc/img/footer/sns_googleplus.gif" alt="Google Plus"></a></li>
+						<li><a href="http://www.tworld.co.kr/tglink.jsp?urlname=get_3052" target="_blank" title="새창이동"><img src="/poc/gnb/inc/img/footer/sns_youtube.gif" alt="You Tube"></a></li>
+						<li><a href="http://www.tworld.co.kr/tglink.jsp?urlname=get_4609" target="_blank" title="새창이동"><img src="/poc/gnb/inc/img/footer/sns_kakaostory.gif" alt="Kakao Story"></a></li>
+						<li><a href="http://www.tworld.co.kr/tglink.jsp?urlname=get_5594" target="_blank" title="새창이동"><img src="/poc/gnb/inc/img/footer/sns_instagram.gif" alt="Instagram"></a></li>
+						<!-- // 2016-08-10 링크수정 -->
+					</ul>
+				</div>
+				<p class="footer_infor">
+					SK텔레콤㈜는 통신판매중개자로서 본 멤버십 사이트에서 제 3자가 판매하는 상품 및 거래에 대해 일체 책임을 지지 않습니다.
+					(SK텔레콤이 직접 판매하는 일부 상품은 제외)
+				</p>
+				<address><span>서울특별시 중구 을지로 65</span><span>대표이사/사장 : 박정호</span><span>사업자등록번호 : 104-81-37225</span><span>판매허가번호 : 중구 02923호 <a href="http://www.tworld.co.kr/tglink.jsp?urlname=ofoot_026">사업자정보확인</a></span><br><span>고객센터 : 휴대폰 국번없이 114(무료) 또는 080-011-6000(무료), 국번없이 1599-0011(유료)</span><span>인터넷/집전화 고객센터 : 080-816-2000(무료) 또는 1600-2000(유료)</span><br><span>구매상품(구,초콜릿) 상담센터 : 1599-3377(유료)</span></address>
+				<p class="copyright">COPYRIGHT © SK TELECOM CO., LTD. ALL RIGHTS RESERVED.</p>
+			</div>
+		</div>
+		<!-- //Footer End -->
+
+		<!--PC ga 스크립트 삽입-->
+
+
+		<!-- Google Tag Manager -->
+		<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-WZVZ7S"
+		height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+		<!-- End Google Tag Manager -->
+
+
+
+</div>
+
+</div>
+
+<!-- GNB영역 -->
+<!-- GNB영역-->
+<link href="//cdnwtmembership.tworld.co.kr:8000/poc/gnb/inc/css/gnb.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="//cdnwtmembership.tworld.co.kr:8000/poc/gnb/inc/js/jquery.gnb.js"></script>
+<script type="text/javascript" charset="euc-kr" src="//cdnwtmembership.tworld.co.kr:8000/poc/gnb/inc/js/gnb.js"></script>
+<script type="text/javascript" charset="euc-kr" src="//cdnwtmembership.tworld.co.kr:8000/poc/gnb/inc/cmn/gnb_cmn.js"></script>
+<script type="text/javascript" charset="euc-kr" src="//cdnwtmembership.tworld.co.kr:8000/poc/gnb/inc/cmn/common_url.js"></script>
+<script type="text/javascript" charset="utf-8" src="//cdnwtmembership.tworld.co.kr:8000/poc/gnb/inc/cmn/poc_gnb_banner.js"></script>
+<!-- GNB영역 -->
+<script type="text/javascript">
+	gnbJquery.GNB.init( 'MBS' ,'u3_3_3', '', 'ALL');
+</script>
+<!-- GNB영역 -->
+
+
+<script type="text/javascript" id="">try{if(google_tag_manager["GTM-WZVZ7S"].macro(13)&&'""'!=google_tag_manager["GTM-WZVZ7S"].macro(14)){var dlkrd=new Date;dlkrd.setTime(dlkrd.getTime()+31104E6);var expires="expires\x3d"+dlkrd.toUTCString();document.cookie="DLXTLID\x3d0a4afa7f3bfa4b9195604adad5330156;"+expires+";path\x3d/"}}catch(a){};</script></body></html>
